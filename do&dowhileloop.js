@@ -33,7 +33,7 @@
 
 // print the even number from 2 to 20:
 
-let k=2;
+// let k=2;
 // do{
 //     if(k%2==0){
 //      console.log(k);
@@ -79,11 +79,10 @@ let k=2;
 //     o++;
 // } while(o<=30)
 
-
 // Print squares of numbers from 1 to 5
 
-let p=1;
- do{
-    console.log(p*p);
-    p++;
- }while(p <= 5);
+// let p=1;
+//  do{
+//     console.log(p*p);
+//     p++;
+//  }while(p <= 5);
