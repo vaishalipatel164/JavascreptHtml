@@ -129,15 +129,19 @@
 // 5. check number which divide two numbers: 
 
 // function number(p,q){
-//     if(p/q){
-//         return p/q;
+//     // basic case
+//     if(p === 0 || q === 0){
+//         return 0;
 //     }
-//     else{
-//         return q/p;
-//     }
-//     return 0;
+//     // if(p > q){
+//     //     return p/q;
+//     // }
+//     // else{
+//     //     return q/p;
+//     // }
+//     return p/q;
 // }
-// let check = number(8,2);
+// let check = number(22,29);
 // console.log(check);
 
 // const number = function(p,q){
@@ -187,7 +191,7 @@
 //    }
 //     return 0;
 // }
-// let check = number(15);
+// let check = number(3);
 // console.log(check);
 
 // const number = function(y){
@@ -199,6 +203,6 @@
 //     }
 //     return 0;
 // }
-// let total = number(45);
+// let total = number(3);
 // console.log(total);
 
